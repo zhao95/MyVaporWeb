@@ -14,7 +14,7 @@ drop.get { req in
 
 drop.resource("posts", PostController())
 
-drop.get("view") { Request in
+drop.get("view") { Requsest in
     return try drop.view.make("view.html")
 }
 
