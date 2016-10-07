@@ -1,0 +1,50 @@
+body{
+    padding-top: 50px;
+}
+
+
+#main{
+    padding: 20px;
+}
+
+#main .row .col-md-4{
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+#main .row .col-md-4 img{
+    width: 45%;
+}
+
+#main .row .col-md-4 p{
+    text-align: left;
+    text-indent: 28px;
+
+    height: 60px;
+}
+
+
+#tab{
+
+}
+
+#tab .tab-content .row .col-md-7{
+    margin-top: 100px;
+}
+
+#tab .tab-content .row .col-md-7 h1{
+    color: orangered;
+}
+
+#tab .tab-content .row .col-md-7 h1 span{
+    color: darkgray;
+    font-size: 20px;
+}
+
+@media screen and  (max-width: 1019px){
+    #tab .tab-content .row .col-md-7{
+         margin-top: 20px;
+    }
+}
+

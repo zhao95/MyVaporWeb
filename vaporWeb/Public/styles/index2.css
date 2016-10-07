@@ -1,0 +1,153 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+   /*背景图片*/
+   background: url("Public/imgs/bg.jpg");
+   /*背景的尺寸*/
+   background-size: cover;
+
+   /*内容居中*/
+   text-align: center;
+
+   /*文字的大小*/
+   font-size: 13px;
+
+}
+
+/*面板*/
+#panel{
+    background-color: white;
+    /*标签的类型*/
+    display: inline-block;
+    /*重写*/
+    text-align: left;
+    margin-top: 100px;
+
+    /*圆角*/
+    border-radius: 5px;
+    /*内边距*/
+    padding: 20px;
+    /*盒子阴影*/
+    box-shadow: 0 0 20px white;
+}
+
+/*面板的头部*/
+header{
+    text-align: center;
+    /*下边框*/
+    border-bottom: 1px solid #dddddd;
+    /*内边距*/
+    padding-bottom: 15px;
+    /*外边距*/
+    margin-bottom: 15px;
+}
+
+header h3{
+    font-size: 25px;
+    color: orangered;
+}
+
+/*面板的内容*/
+#content .usr-pwd{
+    /*background-color: red;*/
+    /*外边距*/
+    margin-bottom: 15px;
+    height: 37px;
+
+    /*定位*/
+    position: relative;
+}
+
+#content .usr-pwd img{
+    /*脱离标准流*/
+    position: absolute;
+    /*定位*/
+    left:8px;
+    top: 6px;
+}
+
+#content .usr-pwd input{
+    width: 100%;
+    height: 100%;
+    /*适配*/
+    box-sizing: border-box;
+    /*边框*/
+    border:1px solid #dddddd;
+    /*左内边距*/
+    padding-left: 38px;
+
+    border-radius: 5px;
+}
+
+#content .usr-pwd input:focus{
+    outline: none;
+    border-color: orangered;
+    box-shadow: 0 0 10px orangered;
+}
+
+#content .setting{
+    /*background-color: red;*/
+}
+
+#content .setting a{
+    color: grey;
+}
+
+#content .setting a.pull-left{
+    text-decoration: none;
+}
+
+#content .setting a.pull-right{
+    float: right;
+}
+
+#login-btn{
+    margin: 15px 0;
+    width: 100%;
+    height: 34px;
+    /*去除边框*/
+    border:0;
+    background-color: orangered;
+    /*圆角*/
+    border-radius: 5px;
+    /*文字的颜色和大小*/
+    color: white;
+    font-size: 18px;
+}
+
+#login-btn:focus{
+    outline: none;
+}
+
+#login-btn:hover{
+    opacity: 0.5;
+}
+
+#content .reg{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#content .reg a{
+    text-decoration: none;
+    color: orangered;
+}
+
+/*尾部*/
+footer{
+    /*background-color: red;*/
+    height: 60px;
+    line-height: 60px;
+}
+
+footer img{
+    width: 40px;
+    /*图片居中*/
+    vertical-align: middle;
+}
