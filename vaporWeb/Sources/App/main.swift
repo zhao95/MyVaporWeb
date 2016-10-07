@@ -17,6 +17,11 @@ drop.get { req in
 
 drop.resource("posts", PostController())
 
+
+drop.get("/hello") { Request in
+    return "你好欢迎来到 zhao95@outlook.com 的小站! 这是一个试验站~"
+}
+
 drop.get("view") { Requsest in
     return try drop.view.make("view.html")
 }
